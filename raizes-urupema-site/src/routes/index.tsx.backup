@@ -3,15 +3,15 @@ import { ArrowDown, ArrowLeft, ArrowRight, Instagram, Menu, X } from "lucide-rea
 import { useEffect, useState } from "react";
 
 import { Button } from "@/components/ui/button";
-const heroImage = { url: "/assets/802503629_17966573148153104_5516428622665713317_n_1.png" };
-const classicImage = { url: "/assets/475942782_17894026002153104_267748791669483891_n_1.png" };
-const rootsLogo = { url: "/assets/482685051_623795050626260_3210924371191532665_n_-_Copia.png" };
+import heroImage from "@/assets/802503629_17966573148153104_5516428622665713317_n_1.jpg.asset.json";
+import classicImage from "@/assets/475942782_17894026002153104_267748791669483891_n_1.jpg.asset.json";
+import rootsLogo from "@/assets/482685051_623795050626260_3210924371191532665_n_-_Copia.jpg.asset.json";
 
-const tableImage = { url: "/assets/566030978_17923373562153104_2081072187815283587_n_1.png" };
-const platterImage = { url: "/assets/619242422_17933049402153104_3548552737511147774_n.png" };
-const assemblyImage = { url: "/assets/788764544_17964568809153104_5616361839745189710_n.png" };
-const blackBunImage = { url: "/assets/burger-pao-preto.png" };
-const fondueVideo = { url: "/assets/video-fondue.mp4" };
+import tableImage from "@/assets/566030978_17923373562153104_2081072187815283587_n_1.jpg.asset.json";
+import platterImage from "@/assets/619242422_17933049402153104_3548552737511147774_n.jpg.asset.json";
+import assemblyImage from "@/assets/788764544_17964568809153104_5616361839745189710_n.jpg.asset.json";
+import blackBunImage from "@/assets/burger-pao-preto.jpg.asset.json";
+import fondueVideo from "@/assets/video-fondue.mp4.asset.json";
 
 export const Route = createFileRoute("/")({
   head: () => ({
